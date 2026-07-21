@@ -1,5 +1,7 @@
 # product-fieldwork-skills-mcp
 
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+
 > **MCP server exposing 57 Product Fieldwork skills (product, growth, and career jobs) as native MCP resources, prompts, and tools.**
 
 This is the MCP transport for the [product-fieldwork-skills](https://github.com/yezililyz/product-fieldwork-skills) repo. Each skill (`planning-cadence`, `writing-prds`, `pricing-strategy`, `continuous-discovery`, and 53 more — see [`../skills/`](../skills)) is surfaced to any MCP-aware client as:
@@ -161,4 +163,4 @@ echo '{"jsonrpc":"2.0","method":"initialize","id":1,"params":{"protocolVersion":
 
 ## License
 
-MIT.
+[MIT](./LICENSE).
