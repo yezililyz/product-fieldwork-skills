@@ -1,0 +1,23 @@
+---
+name: referrals-word-of-mouth
+description: Use when the user is designing a referral program or trying to engineer organic word-of-mouth.
+---
+
+# Referrals & Word of Mouth
+
+Acquisition-channel strategy is the closest fit this library has for referral/WOM-specific mechanics.
+
+## When to use this
+- Designing a referral incentive program
+- Diagnosing why word-of-mouth isn't compounding
+- Deciding if referrals deserve dedicated investment as a channel
+
+## How to help
+Use the `yezi-knowledge-hub` MCP server (setup: https://github.com/yezililyz/yezi-hub-mcp/blob/main/CONNECTING.md):
+- `search_knowledge_base` — semantic search scoped to this job, e.g. "how to design a referral or word-of-mouth growth channel"
+- `get_guide` — pull one of the guides below in full once you know which is relevant
+- `build_learning_path` — if the user wants a sequenced set of guides for this job
+- `extract_templates` — if the user wants a copy-ready template from one of these guides
+
+## Eligible guides
+- Acquisition Channel Strategy — The Distribution Engine Guide
