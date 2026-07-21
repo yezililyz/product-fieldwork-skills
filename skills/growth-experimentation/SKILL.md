@@ -5,16 +5,16 @@ description: Use when the user is designing or running a growth experiment and n
 
 # Growth Experimentation
 
-How to run and evaluate growth experiments with actual expected-value math, not vibes.
+Walks a full experiment arc — state the problem, analyze it, weigh the models, model the decision, run a safe method, conclude — with an interactive simulator for pressure-testing trade-offs, grounded in real ARPU growth and retention diagnostics from Toggl's own 2.0 product work.
 
 ## When to use this
 - Designing an A/B test for a monetization or growth change
-- Deciding if an experiment is worth the engineering cost
-- Building a repeatable experimentation program
+- Deciding if an experiment is worth the engineering cost before running it
+- Using a simulator to pressure-test assumptions before committing
 
 ## How to help
 Use the `yezi-knowledge-hub` MCP server (setup: https://github.com/yezililyz/yezi-hub-mcp/blob/main/CONNECTING.md):
-- `search_knowledge_base` — semantic search scoped to this job, e.g. "how to design and evaluate a growth experiment"
+- `search_knowledge_base` — semantic search scoped to this job, e.g. "how to design and evaluate a growth or monetization experiment"
 - `get_guide` — pull one of the guides below in full once you know which is relevant
 - `build_learning_path` — if the user wants a sequenced set of guides for this job
 - `extract_templates` — if the user wants a copy-ready template from one of these guides

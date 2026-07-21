@@ -5,12 +5,12 @@ description: Use when the user needs to write or sharpen a product strategy docu
 
 # Defining Product Strategy
 
-Strategy isn't a longer roadmap, it's a sharper filter — five battle-tested frameworks turned into something usable.
+Good strategy isn't a longer roadmap, it's a sharper filter. Turns five battle-tested frameworks into usable tools: a top-down pyramid, a one-page strategy canvas, two filters for separating great ideas from merely good ones, and two live toolkits — a Why-Stack builder and a prioritization grid.
 
 ## When to use this
 - Writing a product strategy doc from scratch
 - Deciding what NOT to build, not just what to build
-- Pressure-testing whether a stated strategy is actually a strategy
+- Pressure-testing whether a stated strategy is actually a filter or just a wishlist
 
 ## How to help
 Use the `yezi-knowledge-hub` MCP server (setup: https://github.com/yezililyz/yezi-hub-mcp/blob/main/CONNECTING.md):

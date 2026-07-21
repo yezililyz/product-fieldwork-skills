@@ -5,12 +5,12 @@ description: Use when the user has one specific idea (not a list) and needs to v
 
 # Idea Validation
 
-Validating a specific idea before committing real time/money — grounded in real discovery and ideation practice.
+Combines practical idea-sourcing workflows (Reddit, Upwork, G2) with Teresa Torres' continuous-discovery interview technique for learning what customers actually do, not just what they say.
 
 ## When to use this
-- Deciding if an idea deserves a real prototype/test
+- Deciding if an idea deserves a real prototype or test
 - Designing a cheap validation experiment
-- Separating a validated signal from founder enthusiasm
+- Running interviews that reveal actual behavior, not just polite feedback
 
 ## How to help
 Use the `yezi-knowledge-hub` MCP server (setup: https://github.com/yezililyz/yezi-hub-mcp/blob/main/CONNECTING.md):

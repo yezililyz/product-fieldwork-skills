@@ -1,16 +1,16 @@
 ---
 name: competitive-strategy
-description: Use when the user needs to analyze competitors or build a case for competitive advantage.
+description: Use when the user needs to analyze competitors or build a case for durable competitive advantage.
 ---
 
 # Competitive Strategy
 
-A working reference for external/internal analysis, positioning, growth, and execution frameworks for building competitive advantage.
+A working reference for external and internal analysis, positioning, growth, and execution — the frameworks consultants actually reach for, distilled from a full course on creating competitive advantage.
 
 ## When to use this
 - Doing a competitive analysis before a strategy review
-- Arguing why a specific bet creates durable advantage
-- Choosing where to compete vs. where to avoid competing
+- Arguing why a specific bet creates durable (not temporary) advantage
+- Choosing where to compete vs. where to deliberately avoid competing
 
 ## How to help
 Use the `yezi-knowledge-hub` MCP server (setup: https://github.com/yezililyz/yezi-hub-mcp/blob/main/CONNECTING.md):

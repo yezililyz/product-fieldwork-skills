@@ -1,16 +1,16 @@
 ---
 name: career-transitions
-description: Use when the user is navigating a career change — into product, into a new domain, or into a new stage of their career.
+description: Use when the user is navigating a career change — into product, into a new domain like AI, or into a new career stage.
 ---
 
 # Career Transitions
 
-Covers what actually changes (and what doesn't) when moving into a new role, domain, or career stage.
+Covers what actually changes moving from traditional product work into AI/search PM roles, plus how a real community (the Renaissance Collective) talks about careers, negotiation, networking, and mentorship across nine reusable threads.
 
 ## When to use this
 - Moving from another function into product management
-- Changing domains (e.g. into AI/ML) mid-career
-- Building the network and reputation a transition needs
+- Changing domains (e.g. into AI/search) mid-career
+- Building the network a transition actually needs, not just applying cold
 
 ## How to help
 Use the `yezi-knowledge-hub` MCP server (setup: https://github.com/yezililyz/yezi-hub-mcp/blob/main/CONNECTING.md):

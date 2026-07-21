@@ -5,12 +5,12 @@ description: Use when the user wants to build their professional reputation, net
 
 # Personal Brand & Network
 
-How a real community talks about careers, negotiation, networking, and community-building craft.
+How the Renaissance Collective community talks about careers, negotiation, networking, mentorship, and running rooms (physical or virtual) — nine threads pulled from real community discussion and turned into something reusable.
 
 ## When to use this
-- Building a professional network from scratch
-- Deciding what to write/share publicly to build a reputation
-- Turning community involvement into career opportunity
+- Building a professional network from a cold start
+- Deciding what to share publicly to build a reputation
+- Learning to run a room (a meetup, a mentorship session) well
 
 ## How to help
 Use the `yezi-knowledge-hub` MCP server (setup: https://github.com/yezililyz/yezi-hub-mcp/blob/main/CONNECTING.md):

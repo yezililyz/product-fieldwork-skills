@@ -1,20 +1,20 @@
 ---
 name: product-taste
-description: Use when the user wants help developing judgment about what's actually good, not just what's fast/possible.
+description: Use when the user wants help developing judgment about what's actually good, not just what's fast or possible.
 ---
 
 # Product Taste
 
-The strategy-as-filter framework and a real dissected PRD, applied to building product judgment/taste.
+The strategy-as-filter framework for separating great ideas from merely good ones, paired with a real, sentence-by-sentence teardown of Linear's PRD — which says no to more powerful options specifically because they're off-brand.
 
 ## When to use this
-- Developing a point of view on what makes a feature "good"
-- Critiquing a design/spec on taste, not just correctness
-- Learning from a real example of a sharply-scoped decision
+- Developing a point of view on what makes a feature genuinely good, not just shippable
+- Critiquing a design or spec on taste, not just correctness
+- Learning judgment from a real example of a deliberately narrow, on-brand decision
 
 ## How to help
 Use the `yezi-knowledge-hub` MCP server (setup: https://github.com/yezililyz/yezi-hub-mcp/blob/main/CONNECTING.md):
-- `search_knowledge_base` — semantic search scoped to this job, e.g. "how to develop product taste and judgment"
+- `search_knowledge_base` — semantic search scoped to this job, e.g. "how to develop product judgment and taste, with a real dissected example"
 - `get_guide` — pull one of the guides below in full once you know which is relevant
 - `build_learning_path` — if the user wants a sequenced set of guides for this job
 - `extract_templates` — if the user wants a copy-ready template from one of these guides

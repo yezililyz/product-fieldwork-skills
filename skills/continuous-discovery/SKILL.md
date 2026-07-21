@@ -5,12 +5,13 @@ description: Use when the user wants to set up or improve an ongoing (not one-of
 
 # Continuous Discovery
 
-Building products that create real customer and business value through continuous, outcome-focused discovery — and what changes about discovery in an AI-native workflow.
+Teresa Torres' practice of building products around outcomes, opportunities, and continuous customer interviews — including her own account of what changes about discovery when delivery gets AI-cheap. Also draws on Steve Blank's foundational insight that a startup needs a separate process (Customer Development) for searching out a business model, distinct from building the product.
 
 ## When to use this
 - Setting up a weekly customer-touchpoint cadence
 - Explaining continuous discovery to a team that's never done it
-- Adapting discovery practices for an AI-assisted workflow
+- Adapting discovery practices now that AI makes delivery nearly free
+- Structuring customer-development search separately from product build
 
 ## How to help
 Use the `yezi-knowledge-hub` MCP server (setup: https://github.com/yezililyz/yezi-hub-mcp/blob/main/CONNECTING.md):
