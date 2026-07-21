@@ -17,7 +17,7 @@ Every skill here is **thin and MCP-backed** — the `SKILL.md` doesn't bundle st
 
 **Option 1 — one at a time.** Copy the `skills/<slug>/` folder you want into your own Claude Skills directory (or point Claude Code at this repo). Each skill is self-contained — a single `SKILL.md`, no other files.
 
-**Option 2 — all 57 at once, via MCP.** [`mcp-server/`](./mcp-server) wraps every skill here as a native MCP resource/prompt/tool, so any MCP client (Claude Desktop, Cursor, Continue, Claude Code) can discover and load them with one config line instead of copying folders manually. See [`mcp-server/README.md`](./mcp-server/README.md) for setup.
+**Option 2 — all 57 at once, via MCP.** [`mcp-server/`](./mcp-server) wraps every skill here as a native MCP resource/prompt/tool. A public, no-install instance is already live at `https://product-fieldwork-skills-mcp-644687258733.us-central1.run.app` — add it as a custom connector in claude.ai or Claude Desktop (Settings → Connectors → Add custom connector, no auth needed) and all 57 are available immediately. See [`mcp-server/README.md`](./mcp-server/README.md) for that plus the Claude Code / local-build path.
 
 ## What's covered
 

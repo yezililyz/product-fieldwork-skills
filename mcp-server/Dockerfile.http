@@ -1,0 +1,39 @@
+# syntax=docker/dockerfile:1.7
+# Remote/Cloud Run variant of the Dockerfile — runs the Streamable HTTP
+# transport (src/http.ts -> dist/http.js) instead of stdio. Kept separate
+# from the main Dockerfile (which ships dist/index.js for local Docker use)
+# since the entrypoints serve different purposes.
+
+############################
+# Stage 1 — build
+############################
+FROM node:20-alpine AS build
+WORKDIR /app
+
+COPY package.json package-lock.json* ./
+RUN npm install --no-audit --no-fund
+
+COPY tsconfig.json ./
+COPY src ./src
+COPY skills ./skills
+
+RUN npm run build
+
+############################
+# Stage 2 — runtime
+############################
+FROM node:20-alpine AS runtime
+WORKDIR /app
+ENV NODE_ENV=production
+ENV SKILLS_DIR=/app/skills
+
+COPY package.json package-lock.json* ./
+RUN npm install --omit=dev --no-audit --no-fund && npm cache clean --force
+
+COPY --from=build /app/dist ./dist
+COPY --from=build /app/skills ./skills
+
+USER node
+
+EXPOSE 8080
+CMD ["node", "dist/http.js"]

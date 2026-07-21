@@ -16,53 +16,43 @@ Built on the official [`@modelcontextprotocol/sdk`](https://github.com/modelcont
 
 ## Install
 
-### Run via `npx`
+**This package is not published to npm.** `npx -y product-fieldwork-skills-mcp@latest` will not work until/unless that changes — don't run it expecting it to install anything. Two confirmed-working ways to actually use this today:
+
+### Option A — claude.ai or Claude Desktop (remote, no build required)
+
+A public, unauthenticated instance is already deployed:
+
+```
+https://product-fieldwork-skills-mcp-644687258733.us-central1.run.app
+```
+
+1. In claude.ai (or Claude Desktop's own Connectors screen): **Settings → Connectors → Add custom connector**
+2. **Name**: `Product Fieldwork Skills` (or anything you'll recognize)
+3. **Remote MCP server URL**: the URL above
+4. Leave the OAuth fields blank — no auth required
+5. Save. All 57 skills' tools/resources/prompts should now be available in your conversations.
+
+No install, no local setup, nothing to build. It's a small Cloud Run service capped at 3 instances — cold starts after idle are a couple of seconds.
+
+### Option B — Claude Code (local, requires a build)
+
+Claude Code doesn't yet have a "remote connector" flow the way claude.ai does, so this path needs a local build:
 
 ```bash
-npx -y product-fieldwork-skills-mcp@latest
+git clone https://github.com/yezililyz/product-fieldwork-skills.git
+cd product-fieldwork-skills/mcp-server
+npm install
+npm run build
+claude mcp add --scope user product-fieldwork-skills -- node "$(pwd)/dist/index.js"
 ```
 
-### Install globally
+`--scope user` makes it available from any directory, not just the one you ran the command in. Verify with `claude mcp list`.
 
-```bash
-npm install -g product-fieldwork-skills-mcp
-product-fieldwork-skills-mcp
-```
+**Note on Claude Desktop's "Local MCP servers" screen** (Settings → Developer): this also works for a local build the same way as Claude Code — click "Edit Config" and add an `mcpServers` entry pointing `command: node` at your built `dist/index.js`, same shape as the Claude Code command above. Option A (the deployed URL) is simpler if you don't need a local build for other reasons.
 
-The server speaks the MCP JSON-RPC protocol on stdio. It logs operational messages to stderr; stdout is reserved for MCP traffic.
+### Cursor / Continue / other clients
 
----
-
-## Wire it into your MCP client
-
-### Claude Desktop
-
-Add to `~/Library/Application Support/Claude/claude_desktop_config.json` (macOS) or `%APPDATA%/Claude/claude_desktop_config.json` (Windows):
-
-```json
-{
-  "mcpServers": {
-    "product-fieldwork-skills": {
-      "command": "npx",
-      "args": ["-y", "product-fieldwork-skills-mcp@latest"]
-    }
-  }
-}
-```
-
-Restart Claude Desktop. The 57 skills will appear under the resources picker (the paper-clip icon) and the slash-commands menu. Also connect `yezi-hub-mcp` (see its own [CONNECTING.md](https://github.com/yezililyz/yezi-hub-mcp/blob/main/CONNECTING.md)) so skills have real guide content to pull from.
-
-### Cursor
-
-`~/.cursor/mcp.json` — see [`examples/cursor.json`](./examples/cursor.json).
-
-### Continue
-
-`~/.continue/config.yaml` — see [`examples/continue.yaml`](./examples/continue.yaml).
-
-### Codex / Zed / generic MCP host
-
-Any client that supports the `command + args` MCP launcher format works the same way. See [`examples/`](./examples) for ready-to-copy snippets, and [`examples/docker.md`](./examples/docker.md) for running via Docker.
+Their config formats support both remote URLs and local `command`+`args` — see [`examples/`](./examples) for snippets. **Untested by us against either the remote URL or a local build** — if you try one, we'd want to know whether it worked.
 
 ---
 
@@ -117,18 +107,20 @@ All tools return both `content[].text` (JSON-stringified) and `structuredContent
 ```
 mcp-server/
 ├── src/
-│   ├── index.ts          # bin entry point (stdio transport)
-│   ├── server.ts         # createServer() factory
+│   ├── index.ts          # stdio bin entry point (Claude Code/Desktop local)
+│   ├── http.ts           # Streamable HTTP entry point (Cloud Run, no auth)
+│   ├── server.ts         # createServer() factory, shared by both entry points
 │   ├── handlers/         # resource / prompt / tool registration
 │   ├── tools/            # list_skills / find_skill / read_skill
 │   └── skills/           # loader, parser, registry
 ├── test/                 # vitest suites: unit + e2e via InMemoryTransport
 ├── examples/             # client config snippets
-├── Dockerfile            # multi-stage, node:20-alpine
-└── scripts/sync-skills.mjs   # copies ../skills/ into ./skills/ pre-publish
+├── Dockerfile            # local/npm-package Docker use (dist/index.js, stdio)
+├── Dockerfile.http       # Cloud Run deploy (dist/http.js, no auth, port 8080)
+└── scripts/sync-skills.mjs   # copies ../skills/ into ./skills/ pre-publish/pre-deploy
 ```
 
-Modeled closely on [Cleo Labs' `skills_library/mcp-server`](https://github.com/Cleo-Labs-IA/skills_library/tree/main/mcp-server) — same module shape, same skill-resolution fallback chain, same deterministic keyword scorer. The one structural difference: their skills are fully self-contained, so their server is *pure distribution*. Ours are thin, so this server distributes skill *definitions* while `yezi-hub-mcp` supplies live *content*.
+Modeled closely on [Cleo Labs' `skills_library/mcp-server`](https://github.com/Cleo-Labs-IA/skills_library/tree/main/mcp-server) — same module shape, same skill-resolution fallback chain, same deterministic keyword scorer. Two differences: their skills are fully self-contained, so their server is *pure distribution* — ours are thin, so this server distributes skill *definitions* while `yezi-hub-mcp` supplies live *content*. And `src/http.ts`/`Dockerfile.http` (the public Cloud Run deployment) has no Cleo Labs equivalent — their server is stdio-only; the remote HTTP path here mirrors `yezi-hub-mcp/src/http.ts` instead, minus its bearer-token gate (see [Install](#install) for why that's safe here).
 
 ---
 
@@ -149,10 +141,37 @@ npm test
 # Build
 npm run build
 
-# Validate via raw JSON-RPC
+# Validate via raw JSON-RPC (stdio)
 echo '{"jsonrpc":"2.0","method":"initialize","id":1,"params":{"protocolVersion":"2025-06-18","capabilities":{},"clientInfo":{"name":"smoke","version":"1.0"}}}' | node dist/index.js
+```
+
+### Run/test the HTTP variant locally
+
+```bash
+PORT=8091 node dist/http.js &
+curl http://localhost:8091/health
+curl -X POST http://localhost:8091/ \
+  -H "Content-Type: application/json" -H "Accept: application/json, text/event-stream" \
+  -d '{"jsonrpc":"2.0","method":"tools/call","id":1,"params":{"name":"list_skills","arguments":{}}}'
+```
+
+### Redeploy to Cloud Run
+
+`gcloud run deploy --source .` only picks up a file literally named `Dockerfile`, so deploying `Dockerfile.http` means building from a copy with it renamed, plus a fresh `node scripts/sync-skills.mjs` so `skills/` is present in that build context:
+
+```bash
+node scripts/sync-skills.mjs   # skills/ must exist in the build context
+rm -rf /tmp/pfs-deploy && mkdir /tmp/pfs-deploy
+cp package.json package-lock.json tsconfig.json /tmp/pfs-deploy/
+cp -R src skills /tmp/pfs-deploy/
+cp Dockerfile.http /tmp/pfs-deploy/Dockerfile
+cd /tmp/pfs-deploy
+gcloud run deploy product-fieldwork-skills-mcp \
+  --source . --region us-central1 \
+  --allow-unauthenticated --max-instances 3 --memory 256Mi
 ```
 
 ### Environment
 
 - `SKILLS_DIR` — override the auto-resolved skills directory.
+- `PORT` — HTTP port for `http.js` (default 8080; Cloud Run sets this automatically).
