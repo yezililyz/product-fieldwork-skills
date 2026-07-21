@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "product-fieldwork-skills": {
+      "command": "npx",
+      "args": ["-y", "product-fieldwork-skills-mcp@latest"]
+    }
+  }
+}
