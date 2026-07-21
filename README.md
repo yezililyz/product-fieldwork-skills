@@ -24,7 +24,3 @@ Every skill here is **thin and MCP-backed** — the `SKILL.md` doesn't bundle st
 Not every guide in the library maps cleanly onto a single named job, and not every named job has a guide behind it yet — these 57 are the ones with a genuine match. Some skills draw on more than one guide; a few guides show up under more than one skill, since real product work overlaps (e.g. "Planning Cadence" is relevant to both `planning-cadence` and `goal-setting-okrs`).
 
 Browse the `skills/` folder for the full list.
-
-## License
-
-[MIT](./LICENSE).

@@ -48,5 +48,4 @@ ENTRYPOINT ["node", "dist/index.js"]
 
 LABEL org.opencontainers.image.title="product-fieldwork-skills-mcp" \
       org.opencontainers.image.description="MCP server exposing 57 Product Fieldwork skills (product, growth, career jobs)." \
-      org.opencontainers.image.source="https://github.com/yezililyz/product-fieldwork-skills" \
-      org.opencontainers.image.licenses="MIT"
+      org.opencontainers.image.source="https://github.com/yezililyz/product-fieldwork-skills"

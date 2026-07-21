@@ -15,7 +15,7 @@
   ],
   "homepage": "https://github.com/yezililyz/product-fieldwork-skills/tree/main/mcp-server",
   "bugs": "https://github.com/yezililyz/product-fieldwork-skills/issues",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "author": {
     "name": "Yezi",
     "url": "https://yezi-hub.web.app"
@@ -34,8 +34,7 @@
   "files": [
     "dist",
     "skills",
-    "README.md",
-    "LICENSE"
+    "README.md"
   ],
   "engines": {
     "node": ">=20"
