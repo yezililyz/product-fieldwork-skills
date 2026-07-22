@@ -39,3 +39,6 @@ A sales team has been tracking deal context in free-text notes on each contact r
 - Storing structured, reusable information (budget, timeline, preference) in free-text notes instead of properties, silently blocking every segmentation, automation, and reporting capability that depends on it.
 - Importing contacts without one property per column, creating messy or mismapped data that has to be manually cleaned up before it's usable.
 - Exploring advanced CRM features before the four core objects and their associations are solidly understood, building complexity on top of a foundation that isn't there yet.
+
+## Guides referenced
+- [HubSpot CRM Basics Playbook • From Zero to Confident](https://yezi-hub.web.app/guide/IFLFyOXML4W91fCB1Ld9)

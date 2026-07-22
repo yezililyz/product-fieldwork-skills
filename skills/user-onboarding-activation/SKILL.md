@@ -39,3 +39,8 @@ A B2B tool serving two distinct user types (admins and end-users) is redesigning
 - Optimizing onboarding purely for fewer screens instead of faster time-to-value — the data explicitly contradicts the assumption that shorter always wins.
 - Applying one generic pattern (usually a forced Product Tour) to every product regardless of type, instead of matching from the fifteen named patterns to what this specific product and audience actually need.
 - Treating personalization as either mandatory or irrelevant by default, instead of making it a deliberate, evaluated design choice — done well it lifts conversion; done as a default without real segmentation behind it, it adds friction for no benefit.
+
+## Guides referenced
+- [Onboarding & AI Playbook — EUREKA + AI GTM Notes](https://yezi-hub.web.app/guide/F8Wn0MFR76AdQZk1iJYI)
+- [Onboarding Insights](https://yezi-hub.web.app/guide/npbfOxMPLoQVKDPC7zDV)
+- [The Onboarding Pattern Library — 15 UX Patterns from 200+ Apps](https://yezi-hub.web.app/guide/ux03ujHNTp9zGONGf6Dm)

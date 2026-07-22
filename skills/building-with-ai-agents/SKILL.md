@@ -40,3 +40,13 @@ A lead-generation workflow (scrape → verify match rate → enrich → upload �
 - Chaining LLM calls into a multi-step "workflow" without accounting for compound unreliability — a chain of even 90%-reliable steps degrades fast, and the fix is moving deterministic steps into code, not hoping for a better model.
 - Connecting every available MCP server "just in case," which silently eats a large share of the context budget in unused tool definitions before the agent has done anything.
 - Deploying an agent to fully autonomous, unattended operation on a task that's actually high-magnitude and error-sensitive (financial documents, credential changes) instead of keeping a human review step in place.
+
+## Guides referenced
+- [Agentic Workflows — The Business Playbook](https://yezi-hub.web.app/guide/o6e17jHALCLkIrh5lLzs)
+- [Agentic AI & Agents](https://yezi-hub.web.app/guide/saalFWrpBfQPGlX4760T)
+- [AI Agents Playbook • Nick Sarif](https://yezi-hub.web.app/guide/g7mIInolhfVxt72Uex3C)
+- [AI Agent Harness](https://yezi-hub.web.app/guide/rmfzMS77ZhNrl7bkco0q)
+- [MCP Field Guide — How Agents Get Hands](https://yezi-hub.web.app/guide/YZQWTdZNW0gwHXVhwTo6)
+- [Agentic AI Architecture • Google Cloud Guide](https://yezi-hub.web.app/guide/xMLi4nrQ7E6pwcwEqp25)
+- [Frontier Model Field Guide](https://yezi-hub.web.app/guide/WW9V0Sq7hMh4QjIQnTKP)
+- [The AI Prompt Library for Product Managers](https://yezi-hub.web.app/guide/ypfokgYLIHi1yBFFDBlm)

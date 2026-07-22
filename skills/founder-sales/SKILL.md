@@ -39,3 +39,6 @@ A founder's first five customer conversations all "went great" — enthusiastic 
 - Treating enthusiastic, compliment-heavy conversations as validation, when the Mom Test's core insight is that compliments are the most common and most worthless form of bad data.
 - Asking hypothetical or future-tense questions ("would you buy this," "how much would you pay") and trusting the optimistic answers they reliably produce, instead of anchoring every question in specific past behavior.
 - Letting a call end on vague enthusiasm without asking for any real commitment — a "great conversation" with no deposit, intro, or scheduled next step is, by the Mom Test's own definition, a failed one.
+
+## Guides referenced
+- [The Founder's Sales Playbook](https://yezi-hub.web.app/guide/HWxq7ElvR47OWKyYC5yO)

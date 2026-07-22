@@ -39,3 +39,6 @@ A marketplace connecting freelance service providers to demand is monetizing pur
 - Monetizing purely through a flat platform fee with no rev-share component, so the marketplace's revenue is disconnected from whether participants actually succeed — weakening both the pricing story and the underlying incentive alignment.
 - Tracking raw volume (total listings, total queries) as if it were liquidity, when the real signal is a density ratio showing how often that volume actually resolves into a transaction.
 - Treating supply-side data freshness as a fixed assumption rather than a monitored SLA — stale price or availability data quietly erodes demand-side trust long before it shows up as a liquidity or conversion problem in the aggregate numbers.
+
+## Guides referenced
+- [Lemrock — The Agentic Commerce Playbook](https://yezi-hub.web.app/guide/QKt7dwgKJAcCSA1sE9pK)

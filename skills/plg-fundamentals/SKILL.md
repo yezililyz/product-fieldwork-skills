@@ -39,3 +39,6 @@ A team notices Premium retention dropped 9 points over a quarter and initially a
 - Tracking one blended ARPU or retention number instead of independent levers, hiding exactly which lever is underperforming and should be reallocated away from.
 - Jumping to a fix for a retention drop based on the first plausible guess, instead of running the structured multi-phase diagnostic that rules out data artifacts and selection bias first.
 - Testing multiple retention hypotheses simultaneously instead of sequencing them, making it impossible to attribute any resulting lift to a specific change.
+
+## Guides referenced
+- [Data Research & Logic — Toggl PLG Guide](https://yezi-hub.web.app/guide/GOEDeLVnNxy9UQTPx5zB)

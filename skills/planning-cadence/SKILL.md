@@ -39,3 +39,6 @@ A 60-person company past initial PMF is still running the two-week, no-OKR sprin
 - Running the same planning ceremony regardless of company stage — a rigid quarterly OKR process smothers a still-searching pre-PMF team, while ad hoc two-week planning starves a 500-person org of the lead time GTM and sales actually need.
 - Skipping the buy-in step to save time, sharing the integrated plan only after it's final — this reliably burns far more team goodwill and trust than the time it saved.
 - Planning every future quarter at full resolution instead of using confidence tiers — wasting real effort perfecting a plan for two quarters out that will change anyway before it's executed.
+
+## Guides referenced
+- [Planning Cadence](https://yezi-hub.web.app/guide/QPLWionPLyTOVLpPIu0J)

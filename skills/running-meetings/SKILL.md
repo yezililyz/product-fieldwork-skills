@@ -40,3 +40,6 @@ A weekly "alignment" meeting has 14 attendees and regularly ends with vague next
 - Using the live meeting to discover opinions (asking the room what they think) instead of collecting them independently beforehand — this reliably produces anchoring on the loudest or most senior voice rather than real signal.
 - Skipping the priming step and diving straight into tactics, so people optimizing for different underlying principles (speed vs. accuracy) end up arguing past each other without realizing the real disagreement is one level up.
 - Ending a meeting with vague language ("let's..." "we should...") and no named owner or deadline, so decisions evaporate the moment people leave the room.
+
+## Guides referenced
+- [Running Effective Meetings — The Meeting OS Guide](https://yezi-hub.web.app/guide/p9ctWsRAyDJQXgeTNWUD)

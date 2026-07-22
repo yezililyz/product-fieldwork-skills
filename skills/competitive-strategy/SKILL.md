@@ -39,3 +39,6 @@ A company defending its market position runs PESTEL and finds a technological fa
 - Running PESTEL as an unfocused checklist-filling exercise instead of starting from the specific decision it needs to inform, producing a long list nobody acts on.
 - Calling something a competitive advantage because it's good, without testing it against VRIN — a resource that's merely valuable and rare but easily copied (not inimitable) isn't actually defensible.
 - Stapling four frameworks' outputs together in parallel instead of running them sequentially, so each one's finding becomes the next framework's question — the sequence is where the real insight compounds.
+
+## Guides referenced
+- [Business Strategy — Creating Competitive Advantage](https://yezi-hub.web.app/guide/s0AlrXCD1piy8C5eUhCK)

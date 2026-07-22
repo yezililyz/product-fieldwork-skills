@@ -5,7 +5,7 @@ description: Run customer interviews that surface what people actually did, not 
 
 # Customer Interviews
 
-Grounded in "Continuous Discovery Habits • Teresa Torres."
+Grounded in "Continuous Discovery Habits • Teresa Torres" and "Discovery in the Age of AI — Teresa Torres."
 
 ## When to use
 Use this when interview notes are full of opinions and hypotheticals ("I'd probably use that," "I think I'd like it if...") but nothing about what people actually, concretely did — the tell that the interview technique itself is the problem, not the participants. It's also the right tool when a team is about to run a "would you use this?" prototype test, since honest yes-answers from real people still reliably fail to predict actual usage. The signal to use it now: an interview produces general impressions instead of one specific, narratable story.
@@ -39,3 +39,7 @@ A team studying checkout abandonment opens with "tell me about the last time you
 - Asking a hypothetical or prediction question ("would you use this?") and treating an honest, positive answer as validation — it isn't; people are bad at predicting their own future behavior.
 - Guessing at what happened in the story ("did X go wrong?") instead of using neutral temporal prompts, which contaminates the interview with the interviewer's own assumptions about the problem.
 - Letting the interview drift into solution talk or opinions ("what would you want to see instead?") instead of staying strictly in the lane of a real past experience.
+
+## Guides referenced
+- [Continuous Discovery Habits • Teresa Torres](https://yezi-hub.web.app/guide/8g4iXOetD9bSDh0Yy34X)
+- [Discovery in the Age of AI — Teresa Torres](https://yezi-hub.web.app/guide/W3wRRokIMKMDt3O8rkF2)

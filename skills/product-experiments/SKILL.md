@@ -40,3 +40,6 @@ A team wants to test whether a new onboarding step improves activation. Instead 
 - Testing a bundle of simultaneous changes at once instead of isolating one variable, making it impossible to attribute any resulting metric movement to a specific cause.
 - Shipping to the full existing user base immediately instead of a contained cohort, both increasing the risk of a bad result and making the resulting data harder to interpret cleanly.
 - Judging the experiment's success on a single headline metric without checking whether a predeclared guardrail metric quietly degraded — a real loss can hide behind an encouraging top-line number.
+
+## Guides referenced
+- [Monetization Experiment Guideline — Seat vs. Value Pricing](https://yezi-hub.web.app/guide/jxKLPDM3mpe8lgeYXRLA)

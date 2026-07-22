@@ -39,3 +39,6 @@ A PRD for a small notification-preferences change opens not with "add a mute but
 - Opening a PRD with the proposed solution instead of the problem, skipping the step that makes readers arrive at the same conclusion themselves before ever seeing the fix proposed.
 - Building exactly what was literally requested instead of decoding the underlying need behind a cluster of similar requests, missing the more elegant single solution that would have served all of them.
 - Accepting a more powerful or more-requested alternative without ever weighing whether it would dilute what makes the product distinct — the "no, and here's why" is often the single most valuable sentence in the whole document.
+
+## Guides referenced
+- [Anatomy of a Great PRD — Linear's Priority Micro-Adjust, Torn Down](https://yezi-hub.web.app/guide/AyFDvIyjCczVgb7nfu0Q)

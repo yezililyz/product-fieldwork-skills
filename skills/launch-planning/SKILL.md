@@ -40,3 +40,7 @@ A B2B analytics tool launching a new tier segments not by company size but by da
 - Segmenting only by company size, missing growth potential, workload, and promote signal — the axes that actually predict which accounts deserve premium GTM treatment.
 - Waiting until PLG growth visibly slows before starting to build a sales motion, when building predictable outbound takes real time and the delay creates an unbridged growth gap.
 - Treating the buying journey as a funnel to optimize conversion at each stage, instead of a designed experience — the highest-leverage differentiator once technical parity narrows is how the buying process itself feels.
+
+## Guides referenced
+- [Modern GTM Playbook • Jean Grosser](https://yezi-hub.web.app/guide/NAcBrka34psv7kkoQfeg)
+- [Go-to-Market, Pricing & Sales — The Field Guide](https://yezi-hub.web.app/guide/uAWIr7m0kRyKChMC5h1G)

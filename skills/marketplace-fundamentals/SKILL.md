@@ -39,3 +39,6 @@ A new marketplace connecting service providers to customers through a third-part
 - Building matching or ranking logic before the data contracts between the two sides are specified precisely, risking exactly the staleness/hallucination trust failure that kills confidence in an intermediated marketplace.
 - Investing in a differentiating, vertical-specific feature (the "hard reference case") before the basic onboarding bottleneck is solved — impressive depth doesn't matter if only a handful of participants can ever get onto the platform.
 - Tracking only business metrics (GMV, conversion) without a parallel technical scoreboard (freshness, precision, error rate) — business metrics can look fine right up until a trust failure causes a sudden collapse neither side saw coming.
+
+## Guides referenced
+- [Lemrock — The Agentic Commerce Playbook](https://yezi-hub.web.app/guide/QKt7dwgKJAcCSA1sE9pK)

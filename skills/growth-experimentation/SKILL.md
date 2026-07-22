@@ -41,3 +41,7 @@ A stated problem and affected segments; the removal-test verdict on any new metr
 - Shipping a pricing or growth change to the full existing user base immediately instead of a contained new-signup or single-region cohort, making the blast radius large and the resulting data hard to interpret cleanly.
 - Treating a correlation ("users of X retain better") as proof of causation without running a controlled test to rule out selection bias — the exact trap that would have pushed capacity planning on all users for no real retention gain.
 - Approving an experiment on a single headline metric (ARPU lift) without checking the whole shape — a "win" that quietly damaged activation, retention, or spiked support tickets is a loss in disguise.
+
+## Guides referenced
+- [Monetization Experiment Guideline — Seat vs. Value Pricing](https://yezi-hub.web.app/guide/jxKLPDM3mpe8lgeYXRLA)
+- [Data Research & Logic — Toggl PLG Guide](https://yezi-hub.web.app/guide/GOEDeLVnNxy9UQTPx5zB)

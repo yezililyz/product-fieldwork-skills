@@ -39,3 +39,6 @@ A platform sees demand-side complaints rising and assumes it needs more supply-s
 - Diagnosing every supply/demand imbalance as a raw quantity problem and investing in more supply or more demand acquisition, when the actual cause is stale or unverified supply-side data eroding trust in matches that already exist.
 - Applying one uniform matching complexity to every request regardless of how simple or complex the underlying supply-side item is, wasting cost on simple matches and under-serving genuinely complex ones.
 - Tracking raw supply or demand volume as the balance indicator instead of a density ratio (successful matches per demand attempt) that actually reveals whether the two sides are resolving into real transactions.
+
+## Guides referenced
+- [Lemrock — The Agentic Commerce Playbook](https://yezi-hub.web.app/guide/QKt7dwgKJAcCSA1sE9pK)

@@ -39,3 +39,7 @@ Users repeatedly ask for "custom fields" so they can build their own numeric ran
 - Building the literal feature users asked for instead of decoding the underlying need it's pointing at — treating a request as a spec instead of a symptom.
 - Accepting the most powerful or most-requested option without weighing whether it would erode what actually makes the product distinct — effort and capability aren't the only cost of a feature.
 - Writing a spec or persona from assumption instead of grounding it in a real quote, thread, or artifact — taste is built on observation, not invented opinion.
+
+## Guides referenced
+- [Product Strategy — A Framework for Filtering Great from Good](https://yezi-hub.web.app/guide/W9kwtso5KniQQuKS9IdS)
+- [Anatomy of a Great PRD — Linear's Priority Micro-Adjust, Torn Down](https://yezi-hub.web.app/guide/AyFDvIyjCczVgb7nfu0Q)

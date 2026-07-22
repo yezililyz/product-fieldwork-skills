@@ -41,3 +41,6 @@ A referral program scores well on a RICE sheet (big reach, decent impact, low en
 - Treating a RICE or MoSCoW score as a build decision instead of a sequencing tool — these frameworks were never designed to catch total cost of ownership, compliance risk, or whether a business model exists at all.
 - Estimating "effort" as engineering time alone, missing the categories teams almost always underestimate: ongoing maintenance (~2x build cost), support/CS overhead, and compliance/legal review.
 - Adding AI to a feature because it's trendy without running the eight-question AI gate first — especially skipping "could rules solve 80% of this," which alone would have avoided a large share of AI feature regret.
+
+## Guides referenced
+- [Beyond Prioritization — The Field Guide](https://yezi-hub.web.app/guide/8kFZtBBWMb3sXgxad7cg)

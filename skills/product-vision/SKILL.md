@@ -39,3 +39,7 @@ A company's draft vision reads "become the leading AI-powered analytics platform
 - Writing a vision that names specific features or technologies, collapsing the vision layer into what's actually a medium-term strategy or roadmap statement.
 - Treating an inspiring sentence as sufficient without checking whether the destination it describes would actually be defensible (VRIN) once reached — vision without a real moat is just a slogan.
 - Rewriting the vision every quarter alongside the roadmap, which signals it was never functioning as a true multi-year destination in the first place.
+
+## Guides referenced
+- [Product Strategy — A Framework for Filtering Great from Good](https://yezi-hub.web.app/guide/W9kwtso5KniQQuKS9IdS)
+- [Business Strategy — Creating Competitive Advantage](https://yezi-hub.web.app/guide/s0AlrXCD1piy8C5eUhCK)

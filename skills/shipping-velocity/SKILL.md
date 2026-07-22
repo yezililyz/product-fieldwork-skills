@@ -39,3 +39,7 @@ A startup's founders keep making product decisions and shipping changes that the
 - Treating an information-loss problem (decisions and releases nobody records) as if it were an execution-speed problem, and adding heavier process or more automation that doesn't address the actual leak.
 - Declaring a bottleneck solved (e.g., "AI made us 2x faster at generating code") without checking where the constraint moved downstream — review time, reviewer cognitive load, and CI/CD cost often silently absorb the gain instead.
 - Broadcasting an ETA that was set unilaterally, without reconciling it with the people actually doing the work, then having to walk it back publicly when it slips.
+
+## Guides referenced
+- [From PR Throughput to Product Velocity — Dropbox's Agentic SDLC](https://yezi-hub.web.app/guide/CkatjgOI1GjtqxAf6xkx)
+- [A Startup PM Delivery Guide](https://yezi-hub.web.app/guide/GQGPNNCzmhbX2d7HurJs)

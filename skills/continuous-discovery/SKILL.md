@@ -40,3 +40,8 @@ A team's outcome is "increase weekly active usage of the collaboration feature."
 - Running interviews that ask people to predict future behavior or rate a prototype ("would you use this?") instead of excavating a real, recent, specific story of what they actually did.
 - Discovery theater: interviews that never change the backlog, never kill an idea, and only ever validate the one solution the team already wanted to build — usually a structural/organizational problem, not a personal failing.
 - Whole-idea testing (build the full thing, then see if it works) instead of assumption testing (break it into what must be true, test the riskiest assumption first) — especially tempting now that AI prototyping makes a half-baked idea look "real" in one prompt.
+
+## Guides referenced
+- [Continuous Discovery Habits • Teresa Torres](https://yezi-hub.web.app/guide/8g4iXOetD9bSDh0Yy34X)
+- [Discovery in the Age of AI — Teresa Torres](https://yezi-hub.web.app/guide/W3wRRokIMKMDt3O8rkF2)
+- [The Four Steps to the Epiphany — The Field Guide](https://yezi-hub.web.app/guide/izrroVknZ9U4Upy8PNsS)

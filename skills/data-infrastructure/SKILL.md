@@ -39,3 +39,17 @@ A team's fraud-detection model is drowning analysts in false positives — the r
 - Describing the entire data platform in technology terms (systems, buckets, zones) with no one able to point to which part of the business it actually serves — the clearest sign the project-to-product shift hasn't happened.
 - Building real-time streaming infrastructure because it's technically exciting, when the actual output is a daily report that batch processing would serve just as well at a fraction of the cost and maintenance burden.
 - Bolting governance on at the end of a project (checking compliance right before an AI pipeline goes live) instead of shifting it left to data creation — the GM lesson: catching a compliance gap after launch costs far more than catching it at data creation.
+
+## Guides referenced
+- [ML Feature Stores • Complete Guide](https://yezi-hub.web.app/guide/5wdSHosW1PoawIAe3Ldh)
+- [The Six Pillars of Data Security](https://yezi-hub.web.app/guide/9JP7TEm8X0hQsBpuL3RD)
+- [Data Products — The Field Guide](https://yezi-hub.web.app/guide/Fd2UK3eZX4t72y99dRUt)
+- [Data Security, Privacy & Compliance — The Field Guide](https://yezi-hub.web.app/guide/OA9eCrGn2snzB7ndKzps)
+- [Process & Data Operations — A Working Guide](https://yezi-hub.web.app/guide/Q7B5xPla5ElnCH4wwmIO)
+- [Data Quality, Relevance & Governance — The Trust Triad](https://yezi-hub.web.app/guide/d0vODOSu4t4zh1gdmYGx)
+- [The Data Field Guide](https://yezi-hub.web.app/guide/e58HDcsIA2xQtk6e5NFO)
+- [Data Integration & Architecture](https://yezi-hub.web.app/guide/iEQFHHotyxrwEzqdDIjK)
+- [The Data Lineage Guide](https://yezi-hub.web.app/guide/ohk9IHdG1KsXkzTUgpwz)
+- [API Product Playbook](https://yezi-hub.web.app/guide/BOq9sswfWwSQrU42ry5c)
+- [APIs for Product Managers — Field Guide](https://yezi-hub.web.app/guide/QIo7A2BU2Q9X0jlL1gfm)
+- [The Data Observability Playbook](https://yezi-hub.web.app/guide/2X67J5FOg2vcDS7pl2jq)

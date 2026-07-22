@@ -39,3 +39,7 @@ A company positions itself as "the fastest option in the category." VRIN testing
 - Positioning around a capability that's currently unmatched but not genuinely inimitable — a claim that sounds defensible until a well-resourced competitor closes the gap in one release cycle.
 - Trying to claim both lowest cost and genuine differentiation in the same positioning statement, landing "stuck in the middle" — the classic failure mode neither cost-focused nor differentiation-focused customers find compelling.
 - Failing to notice when a once-real differentiator has become table stakes across the category, and continuing to lead with it in messaging long after competitors caught up.
+
+## Guides referenced
+- [Product Strategy — A Framework for Filtering Great from Good](https://yezi-hub.web.app/guide/W9kwtso5KniQQuKS9IdS)
+- [Business Strategy — Creating Competitive Advantage](https://yezi-hub.web.app/guide/s0AlrXCD1piy8C5eUhCK)

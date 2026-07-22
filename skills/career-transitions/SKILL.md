@@ -39,3 +39,7 @@ A data analyst wants to move into product management at an AI-forward company. T
 - Optimizing the search around a specific title rather than a growth trajectory, landing a title without a role that actually stretches or teaches anything.
 - Sending vague "would love to pick your brain" outreach instead of a specific, one-ask, forwardable email blurb — the version that's actually easy for someone to act on.
 - Choosing the early-believer path (first PM hire at an unproven startup) without weighing that the experience may not transfer if the company doesn't work out — the fastest path to a title isn't always the lowest-risk path to a career.
+
+## Guides referenced
+- [Breaking Into AI & Search PM — Ankita Mishra AMA](https://yezi-hub.web.app/guide/gAY1zoSLOW87ogc1KaSi)
+- [The Renaissance Playbook — Mentorship, Networking & Community Craft](https://yezi-hub.web.app/guide/uTeEo7ryU465AnjqvF9d)

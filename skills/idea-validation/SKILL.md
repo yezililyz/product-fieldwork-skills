@@ -5,7 +5,7 @@ description: Validate one specific idea before investing further — cross-check
 
 # Idea Validation
 
-Grounded in "17 Ways to Generate Startup Ideas in the AI Age" and "Continuous Discovery Habits • Teresa Torres."
+Grounded in "17 Ways to Generate Startup Ideas in the AI Age," "Continuous Discovery Habits • Teresa Torres," and "Discovery in the Age of AI • Teresa Torres."
 
 ## When to use
 Use this when a single idea already exists and the question isn't "what should we build" but "is this actually worth building" — the moment before committing real engineering time. It's also the right tool when the validation done so far has been asking people directly whether they like the idea ("would you use this?"), which reliably produces optimistic, worthless signal regardless of how honest people are trying to be. The signal to use it now: enthusiasm exists but nobody has yet found independent, already-observable evidence (a paid workaround, a repeated complaint, a specific past behavior) that the underlying problem is real.
@@ -16,12 +16,13 @@ This skill validates a specific idea two ways at once: checking for independent 
 ## Method
 1. Search for independent evidence the pain already exists before running a single interview: `site:reddit.com "is there a tool" [niche]`, G2 reviews of adjacent tools for "what's missing," and Upwork for gigs multiple clients pay for repeatedly doing this exact manual work.
 2. Never ask directly whether the idea is good — talk about the person's life and workflow instead; if the idea is never mentioned, they can't flatter you about it, and the resulting signal is real.
-3. Ask about specifics in the past, never opinions about the future: "tell me about the last time you [did the thing this idea addresses]" grounds the conversation in real behavior; "would you use something like this" reliably produces an optimistic, non-predictive "yes."
+3. Grade every question against the three-tier interview scale before asking it: Tier 1 ("would you use something like this?") is worthless — people are bad at predicting their own future behavior and want to be nice; Tier 2 ("tell me about your experience with X") is better but still leaky — it surfaces what people think they do, not what they actually did; Tier 3, the fix, is "tell me about the last time you [did the thing this idea addresses]" — a specific, recent, real story grounded in actual behavior, not a generalization or a forecast.
 4. Excavate the story with temporal prompts ("what did you do first," "what came next") rather than guessing at what happened — guessing contaminates the interview with your own assumption about the problem.
 5. Watch for the three species of bad data and discard them on the spot: compliments ("everyone loves it"), fluff (generic or future-tense claims), and unprompted feature requests (dig into the motivation behind a request rather than adding it straight to a roadmap).
 6. Capture each conversation in a one-page snapshot — the story's key moments, every unmet need or pain point heard, a few quick segmenting facts, and one memorable quote — so patterns across 3-4 interviews can be compared rather than acting on a single anecdote.
 7. Look for convergence between the two validation tracks: does the sourcing evidence (a G2 complaint, an Upwork gig) match what real interview subjects independently describe as their actual past behavior? Convergence across both is far stronger signal than either alone.
-8. Only after this convergence, validate demand directly with a small number of real potential users (10-20) and build the simplest possible test before any larger commitment — sourcing and interviews narrow the search; they don't replace confirming real willingness to act.
+8. Audit the validation process itself for discovery theater before trusting any batch of interviews: if nothing in scope ever changes after the conversations, no candidate idea is ever killed, only one solution is ever seriously considered, or the interviews exist to validate the idea rather than learn about the customer, the "validation" was theater regardless of good intentions — the fix is personal discipline (set aside ego, stay curious through the seventh interview on the same topic), not a different template.
+9. Only after this convergence, validate demand directly with a small number of real potential users (10-20) and build the simplest possible test before any larger commitment — sourcing and interviews narrow the search; they don't replace confirming real willingness to act.
 
 ## Inputs
 - The single specific idea being validated, stated concretely enough to search and ask about
@@ -39,3 +40,9 @@ An idea for an AI tool that auto-fills expense reports is checked against G2 rev
 - Asking directly "would you use this" or "is this a good idea" and treating an enthusiastic answer as validation — it's the single most common way to collect false-positive signal.
 - Relying on sourcing evidence alone (a G2 complaint, a Reddit post) without running any real interviews to confirm the same pain shows up in actual past behavior, not just written complaints.
 - Adding every feature request heard during validation straight to the idea's scope, instead of digging into the underlying motivation — people describe their problems accurately far more often than they describe the right solution.
+- Running interviews that never actually change anything — the idea never gets killed, only one solution is ever seriously entertained — and calling it validation anyway; this is discovery theater, and it's rarely bad faith, just a failure to stay curious past the first few conversations.
+
+## Guides referenced
+- [17 Ways to Generate Startup Ideas in the AI Age](https://yezi-hub.web.app/guide/gud4eLPH4IwJnyqUsA8T)
+- [Continuous Discovery Habits • Teresa Torres](https://yezi-hub.web.app/guide/8g4iXOetD9bSDh0Yy34X)
+- [Discovery in the Age of AI • Teresa Torres](https://yezi-hub.web.app/guide/W3wRRokIMKMDt3O8rkF2)

@@ -37,7 +37,7 @@ describe('e2e MCP flow', () => {
     }
   })
 
-  it('lists 57 resources, 57 prompts, and 3 tools', async () => {
+  it('lists 71 resources, 71 prompts, and 3 tools', async () => {
     const { client, close } = await bootClient()
     try {
       const [resources, prompts, tools] = await Promise.all([
@@ -45,8 +45,8 @@ describe('e2e MCP flow', () => {
         client.listPrompts(),
         client.listTools(),
       ])
-      expect(resources.resources.length).toBe(57)
-      expect(prompts.prompts.length).toBe(57)
+      expect(resources.resources.length).toBe(71)
+      expect(prompts.prompts.length).toBe(71)
       expect(tools.tools.map(t => t.name).sort()).toEqual(['find_skill', 'list_skills', 'read_skill'])
     } finally {
       await close()
@@ -66,14 +66,14 @@ describe('e2e MCP flow', () => {
     }
   })
 
-  it('calls list_skills tool and gets all 57', async () => {
+  it('calls list_skills tool and gets all 71', async () => {
     const { client, close } = await bootClient()
     try {
       const result = await client.callTool({ name: 'list_skills', arguments: {} })
       expect(result.isError).not.toBe(true)
       const structured = result.structuredContent as { count: number; total: number }
-      expect(structured.total).toBe(57)
-      expect(structured.count).toBe(57)
+      expect(structured.total).toBe(71)
+      expect(structured.count).toBe(71)
     } finally {
       await close()
     }

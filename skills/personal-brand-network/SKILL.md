@@ -39,3 +39,6 @@ A request for an intro currently reads "Hey, would love to pick your brain somet
 - Sending vague, open-ended outreach ("pick your brain") instead of a specific, named ask that's easy to say yes to or forward along.
 - Only reaching out to network contacts when something is actively needed, instead of maintaining the relationship with small, no-ask check-ins between asks.
 - Chasing a single viral moment to build a reputation instead of showing up consistently — the koan's lesson: trying to shortcut mastery through intensity rather than sustained practice is precisely what prevents it.
+
+## Guides referenced
+- [The Renaissance Playbook — Mentorship, Networking & Community Craft](https://yezi-hub.web.app/guide/uTeEo7ryU465AnjqvF9d)

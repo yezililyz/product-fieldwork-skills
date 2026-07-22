@@ -39,3 +39,6 @@ Scanning G2 reviews for a legacy expense-reporting tool surfaces a recurring com
 - Generating ideas purely from brainstorming or "what's technically possible with AI now" instead of starting from an already-observable, already-paid-for pain.
 - Treating a category as "too saturated" after seeing established incumbents, instead of reading their G2 reviews for the specific dissatisfaction that signals room for an AI-native, narrower competitor.
 - Skipping direct validation (talking to 10-20 real potential users) because the sourcing signal already felt convincing — sourcing signal narrows the search, it doesn't replace confirming real willingness to pay.
+
+## Guides referenced
+- [17 Ways to Generate Startup Ideas in the AI Age](https://yezi-hub.web.app/guide/gud4eLPH4IwJnyqUsA8T)

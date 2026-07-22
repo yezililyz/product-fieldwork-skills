@@ -39,3 +39,7 @@ A team's retros consistently surface no real disagreement, and leadership suspec
 - Trying to fix a culture problem with a values statement or slide deck instead of a concrete, specific story the team can actually recognize themselves in and repeat.
 - Treating "we're deep in the details here" as inherently healthy without checking whether it's actually landing as micromanagement — the same behavior reads completely differently depending on whether questions invite collaboration or shut it down.
 - Waiting for customers (or team members) to complain before treating something as a problem — the parable's central warning is that both mostly leave quietly rather than complain directly, so a culture that only reacts to loud complaints is missing most of the real signal.
+
+## Guides referenced
+- [Courage as a Service — Vanessa Lee, Shopify](https://yezi-hub.web.app/guide/UwxugS8CWK4OP0SqmIJG)
+- [The Monsters and the Gym — A Total Quality Story](https://yezi-hub.web.app/guide/tUzU5zOqUfFQyIrpXXbt)

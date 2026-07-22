@@ -39,3 +39,7 @@ A team has 500 pieces of raw customer feedback and needs a prioritized theme lis
 - Writing a single large, generic prompt for a complex multi-step task (like feedback synthesis) instead of a reviewable chain — errors in an early step compound invisibly through the rest of the pipeline.
 - Trusting AI output without appending a red-team or self-check pass, especially on anything going to a stakeholder or a decision with real stakes.
 - Storing structured, reusable CRM data in free-text notes instead of properties, silently blocking every segmentation, automation, and reporting capability that depends on it later.
+
+## Guides referenced
+- [The AI Prompt Library for Product Managers](https://yezi-hub.web.app/guide/ypfokgYLIHi1yBFFDBlm)
+- [HubSpot CRM Basics Playbook • From Zero to Confident](https://yezi-hub.web.app/guide/IFLFyOXML4W91fCB1Ld9)

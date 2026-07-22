@@ -41,3 +41,11 @@ Tearing down a compliance-automation startup, the persona map separates the smal
 - Producing a list of liked/disliked features with no persona, JTBD, or business-model scaffolding — this is a UX critique, not a teardown, and misses the trade-offs that actually explain the product's decisions.
 - Skipping the pre-mortem and only cataloging strengths, producing a one-sided analysis with no real risk assessment.
 - Trying to tear down "the whole product" with no stated scope or lens, producing a long but unfocused list of observations instead of a sharp, leverage-pointed analysis.
+
+## Guides referenced
+- [Product Teardown Guide](https://yezi-hub.web.app/guide/PcHY98uHctWW2kPLiYhW)
+- [Cleo Labs Product Teardown](https://yezi-hub.web.app/guide/7s5L3qAyBPR6twmktNCF)
+- [Shipping & Monetizing AI Products](https://yezi-hub.web.app/guide/7te60doqasYo4llVci5M)
+- [Trustpair — Product Teardown](https://yezi-hub.web.app/guide/qlmHzOpdAbMhXGyxEd30)
+- [Linear Agent — Operating Layer Playbook](https://yezi-hub.web.app/guide/1DJSGDRhX7ifa1rwjX7P)
+- [Lemrock — The Agentic Commerce Playbook](https://yezi-hub.web.app/guide/QKt7dwgKJAcCSA1sE9pK)

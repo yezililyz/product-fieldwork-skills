@@ -39,3 +39,7 @@ A team's AI-assisted pipeline "keeps breaking" after every prompt tweak, and nob
 - Trusting an AI's own claim that a fix worked, instead of requiring it to show the actual diff and real test/eval output before treating anything as done — the self-grading-AI crack is often the root cause of "we fixed this already" bugs that keep coming back.
 - Jumping straight from a system-design prompt to a component architecture diagram without first walking the user's actual journey — the strongest architectures in every worked case were derived from user behavior, not from brainstorming components first.
 - Batching multiple changes into one pass to save time, which defeats the entire purpose of the one-change ritual — when something breaks, there's no way to isolate which of the batched changes caused it.
+
+## Guides referenced
+- [The Builder's Safety Net — A Reusable Debugging System](https://yezi-hub.web.app/guide/MTzdEA7LMMwfIavbc0Qh)
+- [The System Design Playbook](https://yezi-hub.web.app/guide/0s3fJkZLtEVeplMwcmlr)

@@ -38,3 +38,9 @@ A team designing an AI meeting-notes assistant runs a 5-participant usability st
 - Designing the AI feature's UI before running any research, then discovering in a support-ticket spike that the confusion was predictable from a named law (usually Jakob's or Doherty).
 - Treating an AI feature's latency as an engineering afterthought instead of a UX requirement — the ~400ms threshold and perceived-performance techniques belong in the spec, not the backlog.
 - Shipping an AI-driven default (auto-accept, auto-apply) without running the reversal/regret/symmetry ethics check, turning a helpful shortcut into a dark pattern.
+
+## Guides referenced
+- [UX Research Handbook — Modular Frameworks](https://yezi-hub.web.app/guide/KQbZ0jTALIv7BdboHUUZ) — source of the four-step research study (plan/conduct/analyze/share) in Method steps 1-3.
+- [UX Synthesis to Mockups — Modular Frameworks](https://yezi-hub.web.app/guide/46P6eqCvQjEE2PkMzzfB) — source of the affinity-diagramming synthesis pipeline and the P0/P1/P2 prioritization + deck format in Method steps 3 and 8.
+- [Behavior psychographics - "laws" of UX](https://yezi-hub.web.app/guide/THvXliXVTW4tVAecR9BF) — source of the named UX laws (Hick's, Jakob's, Miller's, Doherty, Peak-end) audited in Method steps 5-6.
+- [Information architecture guide - Product navigation, taxonomy and search](https://yezi-hub.web.app/guide/NSVuTIyM6xch6nvDBaqm) — source of the four information-seeking needs (known-item, exploratory, exhaustive, re-finding) applied in Method step 4.

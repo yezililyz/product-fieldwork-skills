@@ -39,3 +39,7 @@ A team claims PMF based on a strong first month of signups and a positive early 
 - Declaring PMF on the strength of a single encouraging metric without checking whether it's valid (measuring real durable value) or reliable (would reproduce if measured again).
 - Treating a short, low-friction onboarding flow as evidence of good product experience and, by extension, PMF — the data explicitly contradicts this; length has no independent relationship to retention or fit.
 - Confusing survey-based enthusiasm (NPS, sentiment) with ratio-level behavioral evidence (actual retention, actual usage frequency) — these sit at different levels of measurement and shouldn't be treated as interchangeable proof of the same claim.
+
+## Guides referenced
+- [Quantification & Measurement • A Practical Guide](https://yezi-hub.web.app/guide/b2Cv9g4SVKO5MS2bYIRb)
+- [Onboarding Insights](https://yezi-hub.web.app/guide/npbfOxMPLoQVKDPC7zDV)

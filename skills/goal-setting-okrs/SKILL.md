@@ -40,3 +40,6 @@ A 40-person startup has been running rigid quarterly OKRs modeled on a much larg
 - Running the same rigid, high-ceremony OKR process regardless of company stage — a process built for 500 people can smother a 20-person team still searching for product-market fit, and the fix is calibrating cadence to stage, not abandoning goals altogether.
 - Setting OKRs once a year with no weekly bridge connecting them to actual work, so the goals exist on a slide but never shape a single week's priorities.
 - Planning every future quarter at the same level of detail as the current one — full-resolution planning for a quarter two cycles out wastes real effort on speculation that will change anyway; confidence should decrease explicitly the further out the horizon.
+
+## Guides referenced
+- [Planning Cadence](https://yezi-hub.web.app/guide/QPLWionPLyTOVLpPIu0J)

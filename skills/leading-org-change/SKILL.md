@@ -40,3 +40,6 @@ The five-condition rollout plan (executive support, segmentation, enablement, ch
 - Declaring victory once the original bottleneck is solved (faster code generation, in Dropbox's case) without checking where the constraint moved downstream — the "swap the engine, keep the factory layout" mistake that captures only a fraction of the possible benefit.
 - Patching each subsequent stage independently with its own tool and its own metric, instead of redesigning the whole system around the change — this is what keeps the org stuck at local optimization instead of reaching system-level gains.
 - Reporting a growth metric (throughput, adoption) with no paired quality guardrail, so a real quality regression (rising defect rate, slipping review SLAs) hides silently behind an impressive-looking volume number.
+
+## Guides referenced
+- [From PR Throughput to Product Velocity — Dropbox's Agentic SDLC](https://yezi-hub.web.app/guide/CkatjgOI1GjtqxAf6xkx)

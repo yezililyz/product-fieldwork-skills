@@ -39,3 +39,7 @@ A founder is stalled trying to "validate the market size" for a category with no
 - Trying to forecast or market-research a genuinely novel, high-uncertainty opportunity instead of starting from means already at hand — the Curry-in-a-Hurry lesson: causal segmentation-targeting-positioning doesn't work when the market itself doesn't exist yet to be researched.
 - Treating a string of rejections as evidence about personal worth or idea quality instead of neutral data to be mined ("what did this challenge, who should I talk to next") — this is precisely the trap the daily-discipline half of this skill exists to prevent.
 - Defending the original plan against a surprise instead of asking what opportunity the surprise handed you — the lemonade principle is explicitly about treating positive contingency as fuel, not a deviation to correct back to plan.
+
+## Guides referenced
+- [Effectuation — Book summary](https://yezi-hub.web.app/guide/r6SLDwzuEulevupAV7Kr)
+- [The Founder's Sales Playbook](https://yezi-hub.web.app/guide/HWxq7ElvR47OWKyYC5yO)
