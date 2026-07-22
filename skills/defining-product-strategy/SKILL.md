@@ -39,3 +39,6 @@ A team drafts a pillar: "improve engagement." Run through MAPA, it fails immedia
 - Writing a "strategy" that's actually a longer, better-organized feature wishlist, with no principle that has ever said no to an idea.
 - Treating a vague aspiration ("improve engagement," "delight users") as a strategic pillar without running it through the MAPA test, where it fails on Measurable and Prioritized immediately.
 - Communicating strategy at the execution altitude (ticket-level detail) instead of the why-and-bets altitude leadership actually needs, burying the one page that matters inside a roadmap deck nobody reads in full.
+
+## Guides referenced
+- [Product Strategy — A Framework for Filtering Great from Good](https://yezi-hub.web.app/guide/W9kwtso5KniQQuKS9IdS)

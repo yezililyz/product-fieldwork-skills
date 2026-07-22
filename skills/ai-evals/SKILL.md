@@ -39,3 +39,6 @@ A team shipping a support-ticket triage agent starts with 30 human-labeled golde
 - Reaching for an LLM-judge dashboard before any human has defined what "good" means for this product, creating a confident-looking score that isn't actually aligned to the product bar.
 - Relying on a single overall metric that hides serious problems in tone, safety, or policy compliance — a rubric needs named dimensions, not one score.
 - Testing only offline, never sampling real production traffic, and missing the drift, phrasing, and agent behavior that only shows up under live conditions.
+
+## Guides referenced
+- [AI Evals Playbook](https://yezi-hub.web.app/guide/ERubmfaqvUIClfevaPb4)

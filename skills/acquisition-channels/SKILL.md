@@ -39,3 +39,7 @@ A B2B SaaS startup with no pre-existing audience but strong founder relationship
 - Running four channels at 25% effort each instead of committing to become world-class at one, which usually means losing all four to a competitor who picked one and went deep.
 - Scaling paid spend to compensate for unproven product-market fit, creating a leaky bucket that looks like a channel problem but is actually a retention problem.
 - Reacting to a stalled channel with incremental product fixes instead of recognizing channel saturation (the elephant-curve sag) and building the next distribution engine before the current one fully plateaus.
+
+## Guides referenced
+- [Acquisition Channel Strategy — The Distribution Engine Guide](https://yezi-hub.web.app/guide/55hgTIyJN2HGpVGGgWwr)
+- [Clay Mastery Playbook • From Zero to Scale in One Hour](https://yezi-hub.web.app/guide/U9G5NIdPXivIBhCgXokx)

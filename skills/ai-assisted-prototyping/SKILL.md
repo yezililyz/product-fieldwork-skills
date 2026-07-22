@@ -39,3 +39,6 @@ A small team building a new onboarding flow sets up a local claude.md documentin
 - Treating Claude Code as a stateless chat window instead of a system with memory, re-explaining the same project context every session instead of writing it once into claude.md.
 - Running everything through one agent serially when the task's shape is obviously parallelizable, leaving significant speed and quality on the table.
 - Pasting API keys directly into the conversation, where they persist in local history files, instead of storing them in `.env` and instructing Claude never to read or commit it.
+
+## Guides referenced
+- [Advanced Claude Code Playbook • System Prompts to Autonomous Research](https://yezi-hub.web.app/guide/DN6qDdKNPXfQLmvcYXyE)

@@ -39,3 +39,7 @@ Support tickets and post-launch interviews about a new checkout flow are coded v
 - Reporting "some users said X" instead of doing the coding work to say "35% of users said X," which is the entire value proposition of quantifying qualitative data.
 - Using only one method (usually sentiment) when the question actually needs a second lens — NPS-segmented themes or narrative structure — to be decision-ready.
 - Treating an ordinal measure (a Likert scale, an NPS category) as if it were ratio-level, averaging or ratio-comparing numbers that only support ranking or counting.
+
+## Guides referenced
+- [Quantify Qualitative Data • 5 Methods](https://yezi-hub.web.app/guide/KMxRCfPS1X99g28X1QUM)
+- [Quantification & Measurement • A Practical Guide](https://yezi-hub.web.app/guide/b2Cv9g4SVKO5MS2bYIRb)
